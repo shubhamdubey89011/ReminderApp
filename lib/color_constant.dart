@@ -1,0 +1,42 @@
+import 'package:flutter/material.dart';
+
+class ColorConstants {
+  static const appMainColorBlue = Color.fromARGB(255, 6, 141, 251);
+  static const appMainColorPink = Color.fromARGB(255, 244, 4, 180);
+  static const lightPink = Color(0xffC85491);
+  static const lightGrey = Color(0xff9EA6B5);
+  static const red = Color.fromRGBO(81, 41, 32, 1);
+  static const darkred = Color.fromRGBO(46, 30, 31, 1);
+  static const extraLightGrey = Color(0xffA6A6A6);
+  static const containerColor = Color(0xffFDFDFD);
+  static const smallContainerColor = Color(0xffECF1F6);
+  static const orange = Color.fromARGB(255, 223, 144, 70);
+  static const appMainColorGolden = Color.fromARGB(251, 67, 3, 141);
+  static const appMainColorBlack = Color.fromARGB(202, 181, 16, 132);
+  static const appMainColor1 = Color.fromARGB(200, 49, 183, 194);
+  static const appMainColor2 = Color.fromARGB(200, 123, 195, 147);
+  static const orange1 = Color.fromRGBO(255, 191, 103, 1);
+  static const orange2 = Color.fromRGBO(255, 158, 27, 1);
+
+  static const linearGradientColor = [
+    appMainColorBlue,
+    appMainColorPink,
+  ];
+
+  static const linearGradientColor1 = [appMainColorPink, appMainColorBlue];
+  static const linearGradientColor2 = [appMainColorGolden, appMainColorBlack];
+  static const linearGradientColor3 = [appMainColor2, appMainColor1, orange];
+  static const linearGradientColor4 = [orange1, orange2];
+  static const linearGradientColor5 = [red, darkred];
+}
+
+const purpleColor = Color.fromRGBO(46, 41, 78, 1);
+
+const white = Color.fromRGBO(255, 255, 255, 1);
+const lightGrey = Color.fromRGBO(239, 239, 239, 1);
+const darkGrey = Color.fromRGBO(112, 112, 112, 1);
+const fontGrey = Color.fromRGBO(73, 73, 73, 1);
+const textfieldGrey = Color.fromRGBO(209, 209, 209, 1);
+const golden = Color.fromRGBO(248, 181, 91, 1);
+const red = Color.fromRGBO(255, 115, 115, 1.0);
+const green = Color.fromRGBO(52, 168, 83, 1.0);
